@@ -72,3 +72,20 @@ form{
         color: blue;
     }
 }
+/* Hover Effects */
+nav a{
+    transition: color 0.5s ease;
+}
+nav a:hover{
+    color: red;
+}
+button{
+    background-color: black;
+    color: white;
+    padding: 12px;
+    border-radius: 10px;
+    transition: background-color 0.5s ease;
+}
+button:hover{
+    background-color: red;
+}
