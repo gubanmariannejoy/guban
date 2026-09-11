@@ -33,12 +33,22 @@ console.log(mdas(5, 3));
 // querySelector
 const heading = document.querySelector("h1");
 console.log(heading);
+const projectHeading = document.querySelector("#project h2");
+console.log(projectHeading);
 const contactHeading = document.querySelector("#contact h2");
 console.log(contactHeading);
-const projectHeading = document.querySelector("#services h2");
-console.log(projectHeading);
+const servicesHeading = document.querySelector("#services h2");
+console.log(servicesHeading);
 
 // Text Content
 heading.textContent = "My Portfolio";
-contactHeading.textContent = "Let's Connect";
 projectHeading.textContent = "My Projects";
+contactHeading.textContent = "Let's Connect";
+servicesHeading.textContent = " Services";
+
+//.style
+heading.style.color = "purple";
+heading.style.backgroundColor = "yellow";
+projectHeading.style.color = "purple";
+contactHeading.style.color = "purple";
+servicesHeading.style.color = "purple";
