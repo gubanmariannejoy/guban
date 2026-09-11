@@ -35,5 +35,10 @@ const heading = document.querySelector("h1");
 console.log(heading);
 const contactHeading = document.querySelector("#contact h2");
 console.log(contactHeading);
-const servicesHeading = document.querySelector("#services h2");
-console.log(servicesHeading);
+const projectHeading = document.querySelector("#services h2");
+console.log(projectHeading);
+
+// Text Content
+heading.textContent = "My Portfolio";
+contactHeading.textContent = "Let's Connect";
+projectHeading.textContent = "My Projects";
