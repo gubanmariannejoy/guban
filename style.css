@@ -30,9 +30,8 @@ min-width: 300px;
 border: 1px solid black;
 padding:  20px;
 }
-section[id="project"]{
-    background-color: orange;
-}
+section[id="contact"]{
+    background-color:green } 
 
 form{
     display: flex;
