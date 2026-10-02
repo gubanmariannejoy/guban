@@ -41,17 +41,17 @@ const servicesHeading = document.querySelector("#services h2");
 console.log(servicesHeading);
 
 // Text Content
-heading.textContent = "My Portfolio";
+heading.textContent = "MY PORTFOLIO";
 projectHeading.textContent = "My Projects";
 contactHeading.textContent = "Let's Connect";
 servicesHeading.textContent = " Services";
 
 //.style
-heading.style.color = "purple";
-heading.style.backgroundColor = "yellow";
-projectHeading.style.color = "purple";
-contactHeading.style.color = "purple";
-servicesHeading.style.color = "purple";
+heading.style.color = "black";
+heading.style.backgroundColor = "pink";
+projectHeading.style.color = "black";
+contactHeading.style.color = "black";
+servicesHeading.style.color = "black";
 
 // Event Listener
 heading.addEventListener("click", function() {

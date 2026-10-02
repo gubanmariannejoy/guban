@@ -6,49 +6,65 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
-<body>
-    <h1> Marainne Joy Guban</h1>
-    <button id="switch">Switch</button>
+<body class="text-center">
+    <h1 class="max-sm:text-[75px] max-sm:text-blue-600 font-bold border-2 border-purple-400 p-4 rounded-lg"> Marainne Joy Guban</h1>
     
-    <header>
-        <nav>
-            <span>gubanmariannejoy</span>
-            <ul>
-                <li><a href="#project">project</a></li>
-                <li><a href="#services">services</a></li>
-                <li><a href="#contact">contact me</a></li>
+   <br> <header>
+        <nav class="flex flex-col gap-[15px] justify-between content-center mx-[50px] sm:flex-row sm:gap-0">
+            <span class="transition-colors duration-500 ease-in-out hover:text-red-500"> gubanmariannejoy</span>
+
+            <ul  class="list-none flex flex-col gap-[20px] p-0 m-0 sm:flex-row">
+                <li> <a href="#projects" class="transition-colors duration-500 ease-in-out hover:text-red-500">Projects</a>
+                </li>
+                <li> <a href="#services" class="transition-colors duration-500 ease-in-out hover:text-red-500">Services</a>
+                </li>
+                <li> <a href="#contact" class="transition-colors duration-500 ease-in-out hover:text-red-500">Contact Me</a>
+                </li>
             </ul>
         </nav>
     </header>
-    <main>
-        <section id="project">
-            <h2 class = "My Project"> My Project</h2>
-            <p>Guban Porpolio , </p>
+    <h1 class="text-3xl text-black-300 font-bold ">
+      WELCOME 
+    </h1>
+
+      
+    <main class="flex flex-wrap gap-[20px] p-[15px] m-[10px] sm:gap-[30px] sm:p-[20px] sm:m-[50px]">
+
+        <section id="project" class="flex-1 min-w-0 sm:min-w-[300px] max-sm:flex-[1_1_100%] border border-black p-[15px] sm:p-[20px] bg-pink-200">
+            <h2 class="max-md:text-[48px] max-md:text-blue-600"> My Project</h2>
+            <br><p>Guban Porpolio <br> MJ Projects</p>
         </section>
-        <section id="services">
-            <h2 class = "My Services">My Services</h2>
-            <p>Capstone creation</p>
+
+        <section id="services" class="flex-1 min-w-0 sm:min-w-[300px] max-sm:flex-[1_1_100%] border border-black p-[15px] sm:p-[20px] bg-pink-500"> 
+            <h2 class="max-md:text-[48px] max-md:text-blue-600">My Services</h2>
+            <br><p>Capstone creation <br> Dionesss</p>
         </section>
-        <section id="contact">
-            <h2 class = "My Contact"> Let's Build Together</h2>
-            <form action="">
+
+        <section id="contact"class="flex-1 min-w-0 sm:min-w-[300px] max-sm:flex-[1_1_100%] border border-black p-[15px] sm:p-[20px] bg-pink-100">
+            <h2 class="max-md:text-[48px] max-md:text-blue-600"> Let's Build Together</h2>
+            <form action="#" class="flex flex-col gap-[20px]">
                 <label for="name">Name</label>
-                <input type="text" id="name" name="name" required />
+                <input type="text" id="name" name="name" required class="border p-2 rounded">
+
 
                 <label for="email">Email</label>
-                <input type="email" id="email" name="email" required />
+                <input type="email" name="email" id="email" required class="border p-2 rounded">
+
 
                 <label for="message">Message</label>
-                <textarea id="message" name="message" rows="5" required></textarea>
+                <textarea name="message" id="message" rows="1" required class="border p-2 rounded"></textarea>
 
-                <button type="submit">Send Message</button>
 
+                <button type="submit" class="bg-black text-white p-[12px] rounded-[10px] transition-colors duration-500 ease-in-out hover:bg-pink-500">
+                    Send Message
+                </button>
             </form>
         </section>
     </main>
+    <button id="switch"class="bg-black text-white p-[12px] rounded-[10px] transition-colors duration-500 ease-in-out hover:bg-pink-500">Switch</button>
     <script src="script.js"></script>
 </body>
 
